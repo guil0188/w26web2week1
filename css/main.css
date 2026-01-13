@@ -81,3 +81,30 @@ section img{
     float: left;   /* floatin and image will make the text sit next to it, and wrap around it */
     margin: 0 15px 15px 0;
 }
+
+nav a{
+    color: azure;
+    font-size: 1.2em ; /* ems are relative to the font size of the parent*/
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: brown;
+}
+nav a:active{
+    color: black;
+}
+nav a:visited{
+    color: bisque;
+}
+#current{
+    background-color: rgb(255, 255, 255);
+}
+section{
+    margin: 20px;
+    border: 2px solid black;
+    padding: 15px;
+    
+}
+
+
