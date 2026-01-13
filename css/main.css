@@ -75,3 +75,9 @@ h1{
     /* two values means top-bottom, left-right */
     margin: 15px, 0;
 }
+section img{
+    /* Only scale one dimension of an image, with or height */
+    width: 20%;
+    float: left;   /* floatin and image will make the text sit next to it, and wrap around it */
+    margin: 0 15px 15px 0;
+}
