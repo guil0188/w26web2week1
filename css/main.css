@@ -49,3 +49,29 @@ table {
 body{
     background-color: palevioletred;
 }
+
+/* ********************
+            Main
+************************/
+
+/* these styles will apply to the entire page */
+body{
+    max-width: 800px;
+    background-color: rgb(97, 97, 202);
+    /* to center an element, use margin: 0 auto */
+    margin: 0 auto;
+
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: bold;
+    color: brown; /*this is for font color*/
+
+    /* the css box model contains three diferent areas:
+    margin, border, and padding
+    margin pushes elements away */
+
+    /* two values means top-bottom, left-right */
+    margin: 15px, 0;
+}
